@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import NotFoundPage from "./pages/notFoundPage";
-import OverviewPage from "./pages/overviewPage";
-import ProductsPage from "./pages/productsPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import OverviewPage from "./pages/OverviewPage";
+import ProductsPage from "./pages/ProductsPage";
 function App() {
   return (
     <div className="flex h-screen bg-gray-900 text-gray-100 overflow-hidden">
