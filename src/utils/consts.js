@@ -399,3 +399,96 @@ export const USER_DEMOGRAPHICS_CHART_DATA = [
 ];
 
 export const USER_DEMOGRAPHICS_CHART_COLORS = ["#6366F1", "#EC4899", "#8B5CA0", "#10B981", "#F59E0B", "#3B82F6"];
+
+export const SALES_STAT_CARD_ITEMS = [
+  {
+    title: 'Total Revenue',
+    value: '$1,250,000',
+    icon: DollarSign,
+    color: '#10B981',
+  },
+  {
+    title: 'Total Orders',
+    value: 25000,
+    icon: ShoppingCart,
+    color: '#3E92CC',
+  },
+  {
+    title: 'Average Order Value',
+    value: '$100',
+    icon: ShoppingBag,
+    color: '#6366F1',
+  },
+  {
+    title: 'Conversion Rate',
+    value: '3.5%',
+    icon: Percent,
+    color: '#F2A365',
+  },
+];
+
+export const SALES_CHART_MONTHLY_SALES_DATA = [
+  { month: "Jan", sales: 4000 },
+  { month: "Feb", sales: 3000 },
+  { month: "Mar", sales: 2000 },
+  { month: "Apr", sales: 2780 },
+  { month: "May", sales: 1890 },
+  { month: "Jun", sales: 2390 },
+  { month: "Jul", sales: 3490 },
+  { month: "Aug", sales: 4000 },
+  { month: "Sep", sales: 3000 },
+  { month: "Oct", sales: 2000 },
+  { month: "Nov", sales: 2780 },
+  { month: "Dec", sales: 1890 },
+];
+
+export const SALES_CHART_WEEKLY_SALES_DATA = [
+  { week: "1", sales: 4000 },
+  { week: "2", sales: 3000 },
+  { week: "3", sales: 2000 },
+  { week: "4", sales: 2780 },
+  { week: "5", sales: 1890 },
+  { week: "6", sales: 2390 },
+];
+
+export const SALES_CHART_QUARTERLY_SALES_DATA = [
+  { quarter: "Q1", sales: 4000 },
+  { quarter: "Q2", sales: 3000 },
+  { quarter: "Q3", sales: 2000 },
+  { quarter: "Q4", sales: 2780 },
+];
+
+export const SALES_CHART_YEARLY_SALES_DATA = [
+  { year: "2020", sales: 4000 },
+  { year: "2021", sales: 7000 },
+  { year: "2023", sales: 12000 },
+  { year: "2024", sales: 15780 },
+];
+
+export const SALES_BY_CATEGORY_CHART_COLORS = [
+  "#6366F1",
+  "#F43F5E",
+  "#F2A365",
+  "#9CA3AF",
+  "#EC4899",
+  "#4ADE80",
+];
+
+export const SALES_BY_CATEGORY_CHART_DATA = [
+  { name: "Electronics", value: 4500 },
+  { name: "Clothing", value: 3500 },
+  { name: "Furniture", value: 3000 },
+  { name: "Stationery", value: 2500 },
+  { name: "Groceries", value: 2000 },
+  { name: "Others", value: 1000 },
+];
+
+export const DAILY_SALES_CHART_DATA = [
+  { name: "Mon", sales: 2800 },
+  { name: "Tue", sales: 3000 },
+  { name: "Wed", sales: 2000 },
+  { name: "Thu", sales: 2780 },
+  { name: "Fri", sales: 1890 },
+  { name: "Sat", sales: 4000 },
+  { name: "Sun", sales: 3490 },
+];
