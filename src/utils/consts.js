@@ -1,4 +1,4 @@
-import { AlertTriangle, BarChart2, DollarSign, Package, Percent, Settings, ShoppingBag, ShoppingCart, TrendingUp, Users } from "lucide-react";
+import { AlertTriangle, BarChart2, DollarSign, Package, Percent, Settings, ShoppingBag, ShoppingCart, TrendingUp, User2, UserCheck, UserMinus, Users } from "lucide-react";
 
 export const SIDEBAR_ITEMS = [
   {
@@ -313,3 +313,89 @@ export const PRODUCTS_TABLE_DATA = [
     sales: 2390
   },
 ];
+
+export const USERS_STAT_CARD_ITEMS = [
+  {
+    title: 'Total Users',
+    value: 25000,
+    icon: Users,
+    color: '#6366F1',
+  },
+  {
+    title: 'Active Users',
+    value: 1500,
+    icon: UserCheck,
+    color: '#2E93A1',
+  },
+  {
+    title: 'Inactive Users',
+    value: 500,
+    icon: User2,
+    color: '#F59E0B',
+  },
+  {
+    title: 'Churn Rate',
+    value: '8.1%',
+    icon: UserMinus,
+    color: '#EF4444',
+  },
+];
+
+export const USERS_TABLE_DATA = [
+  { id: 1, name: "John Doe", email: "john@example.com", role: "Customer", status: "Active" },
+  { id: 2, name: "Jane Smith", email: "jane@example.com", role: "Admin", status: "Inactive" },
+  { id: 3, name: "Alice Johnson", email: "alice@example.com", role: "Customer", status: "Active" },
+  { id: 4, name: "Bob Brown", email: "bob@example.com", role: "Moderator", status: "Active" },
+  { id: 5, name: "Charlie Davis", email: "charlie@example.com", role: "Customer", status: "Inactive" },
+  { id: 6, name: "Diana Evans", email: "diana@example.com", role: "Admin", status: "Active" },
+];
+
+export const USER_GROWTH_CHART_DATA = [
+  {
+    name: "Jan",
+    users: 1000,
+  },
+  {
+    name: "Feb",
+    users: 1800,
+  },
+  {
+    name: "Mar",
+    users: 2000,
+  },
+  {
+    name: "Apr",
+    users: 2780,
+  },
+  {
+    name: "May",
+    users: 3000,
+  },
+  {
+    name: "Jun",
+    users: 3780,
+  },
+];
+
+export const USER_ACTIVITY_CHART_COLORS = ["#6366F1", "#EC4899", "#8B5CA0", "#10B981", "#F59E0B", "#3B82F6"];
+
+export const USER_ACTIVITY_CHART_DATA = [
+  { name: "Mon", "0-4": 20, "4-8": 40, "8-12": 60, "12-16": 80, "16-20": 100, "20-24": 30 },
+  { name: "Tue", "0-4": 30, "4-8": 50, "8-12": 70, "12-16": 90, "16-20": 110, "20-24": 40 },
+  { name: "Wed", "0-4": 40, "4-8": 60, "8-12": 80, "12-16": 100, "16-20": 120, "20-24": 50 },
+  { name: "Thu", "0-4": 50, "4-8": 70, "8-12": 90, "12-16": 110, "16-20": 130, "20-24": 60 },
+  { name: "Fri", "0-4": 60, "4-8": 80, "8-12": 100, "12-16": 120, "16-20": 140, "20-24": 70 },
+  { name: "Sat", "0-4": 70, "4-8": 90, "8-12": 110, "12-16": 130, "16-20": 150, "20-24": 80 },
+  { name: "Sun", "0-4": 80, "4-8": 100, "8-12": 120, "12-16": 140, "16-20": 160, "20-24": 90 },
+];
+
+export const USER_DEMOGRAPHICS_CHART_DATA = [
+  { period: "18-24", value: 400 },
+  { period: "25-34", value: 300 },
+  { period: "35-44", value: 200 },
+  { period: "45-54", value: 100 },
+  { period: "55-64", value: 50 },
+  { period: "65+", value: 25 },
+];
+
+export const USER_DEMOGRAPHICS_CHART_COLORS = ["#6366F1", "#EC4899", "#8B5CA0", "#10B981", "#F59E0B", "#3B82F6"];
