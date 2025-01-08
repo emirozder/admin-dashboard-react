@@ -8,9 +8,9 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { USER_GROWTH_CHART_DATA } from "../../../utils/consts";
+import { DAILY_ORDERS_CHART_DATA } from "../../../utils/consts";
 
-const UserGrowthChart = () => {
+const DailyOrdersChart = () => {
   return (
     <motion.div
       className="bg-gray-800 bg-opacity-50 backdrop-blur-md shadow-lg rounded-xl p-6 border border-gray-700"
@@ -18,11 +18,11 @@ const UserGrowthChart = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <h2 className="text-lg font-medium mb-4 text-gray-100">User Growth</h2>
+      <h2 className="text-xl font-medium mb-4 text-gray-100">Daily Orders</h2>
 
-      <div className="h-80">
-        <ResponsiveContainer width={"100%"} height={"100%"}>
-          <LineChart data={USER_GROWTH_CHART_DATA}>
+      <div style={{ width: "100%", height: 300 }}>
+        <ResponsiveContainer>
+          <LineChart data={DAILY_ORDERS_CHART_DATA}>
             <CartesianGrid strokeDasharray="3 3" stroke="#4B5563" />
             <XAxis dataKey={"name"} stroke="#9ca3af" />
             <YAxis stroke="#9ca3af" />
@@ -35,7 +35,7 @@ const UserGrowthChart = () => {
             />
             <Line
               type="monotone"
-              dataKey="users"
+              dataKey="orders"
               stroke="#6366F1"
               strokeWidth={3}
             />
@@ -46,4 +46,4 @@ const UserGrowthChart = () => {
   );
 };
 
-export default UserGrowthChart;
+export default DailyOrdersChart;

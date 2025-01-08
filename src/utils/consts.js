@@ -1,4 +1,4 @@
-import { AlertTriangle, BarChart2, DollarSign, Package, Percent, Settings, ShoppingBag, ShoppingCart, TrendingUp, User2, UserCheck, UserMinus, Users } from "lucide-react";
+import { AlertTriangle, BarChart2, CheckCircle, Clock, DollarSign, Package, Percent, Settings, ShieldClose, ShoppingBag, ShoppingCart, TrendingUp, User2, UserCheck, UserMinus, Users } from "lucide-react";
 
 export const SIDEBAR_ITEMS = [
   {
@@ -491,4 +491,59 @@ export const DAILY_SALES_CHART_DATA = [
   { name: "Fri", sales: 1890 },
   { name: "Sat", sales: 4000 },
   { name: "Sun", sales: 3490 },
+];
+
+export const ORDERS_STAT_CARD_ITEMS = [
+  {
+    title: 'Total Orders',
+    value: 2500,
+    icon: ShoppingCart,
+    color: '#3E92CC',
+  },
+  {
+    title: 'Pending Orders',
+    value: 500,
+    icon: Clock,
+    color: '#F59E0B',
+  },
+  {
+    title: 'Completed Orders',
+    value: 2000,
+    icon: CheckCircle,
+    color: '#10B981',
+  },
+  {
+    title: 'Cancelled Orders',
+    value: 100,
+    icon: ShieldClose,
+    color: '#EF4444',
+  },
+];
+
+export const DAILY_ORDERS_CHART_DATA = [
+  { name: "Mon", orders: 280 },
+  { name: "Tue", orders: 300 },
+  { name: "Wed", orders: 200 },
+  { name: "Thu", orders: 278 },
+  { name: "Fri", orders: 189 },
+  { name: "Sat", orders: 400 },
+  { name: "Sun", orders: 349 },
+];
+
+export const ORDER_STATUS_DISTRIBUTION_CHART_COLORS = ["#9CA3AF", "#6366F1", "#F2A365", "#4ADE80"];
+
+export const ORDER_STATUS_DISTRIBUTION_CHART_DATA = [
+  { name: "Pending", value: 500 },
+  { name: "Processing", value: 1000 },
+  { name: "Shipped", value: 800 },
+  { name: "Delivered", value: 200 },
+];
+
+export const ORDERS_TABLE_DATA = [
+  { id: "ORD001", customer: "John Doe", total: 346.8, status: "Delivered", date: "2024-09-17" },
+  { id: "ORD002", customer: "Jane Smith", total: 124.5, status: "Shipped", date: "2024-09-16" },
+  { id: "ORD003", customer: "Alice Johnson", total: 89.9, status: "Processing", date: "2024-09-15" },
+  { id: "ORD004", customer: "Bob Brown", total: 45.0, status: "Pending", date: "2024-09-14" },
+  { id: "ORD005", customer: "Charlie Davis", total: 67.8, status: "Delivered", date: "2024-09-13" },
+  { id: "ORD006", customer: "Diana Evans", total: 120.0, status: "Shipped", date: "2024-09-12" },
 ];
