@@ -1,4 +1,4 @@
-import { AlertTriangle, BarChart2, CheckCircle, Clock, DollarSign, Package, Percent, Settings, ShieldClose, ShoppingBag, ShoppingCart, TrendingUp, User2, UserCheck, UserMinus, Users } from "lucide-react";
+import { AlertTriangle, BarChart, BarChart2, CheckCircle, Clock, DollarSign, Eye, Package, Percent, PieChart, Settings, ShieldClose, ShoppingBag, ShoppingCart, TrendingDown, TrendingUp, User2, UserCheck, UserMinus, UserPlus, Users } from "lucide-react";
 
 export const SIDEBAR_ITEMS = [
   {
@@ -546,4 +546,123 @@ export const ORDERS_TABLE_DATA = [
   { id: "ORD004", customer: "Bob Brown", total: 45.0, status: "Pending", date: "2024-09-14" },
   { id: "ORD005", customer: "Charlie Davis", total: 67.8, status: "Delivered", date: "2024-09-13" },
   { id: "ORD006", customer: "Diana Evans", total: 120.0, status: "Shipped", date: "2024-09-12" },
+];
+
+export const ANALYTICS_STAT_CARD_ITEMS = [
+  { title: "Revenue", value: "$1,234,567", change: 12.5, icon: DollarSign },
+  { title: "Users", value: "45,678", change: 8.3, icon: Users },
+  { title: "Orders", value: "9,876", change: -3.2, icon: ShoppingBag },
+  { title: "Page Views", value: "1,234,567", change: 15.7, icon: Eye },
+];
+
+export const REVENUE_TARGET_CHART_MONTHLY_DATA = [
+  { month: "Jan", revenue: 4000, target: 3800 },
+  { month: "Feb", revenue: 3000, target: 3200 },
+  { month: "Mar", revenue: 5000, target: 4500 },
+  { month: "Apr", revenue: 4500, target: 4200 },
+  { month: "May", revenue: 6000, target: 5500 },
+  { month: "Jun", revenue: 5500, target: 5800 },
+  { month: "Jul", revenue: 7000, target: 6500 },
+  { month: "Aug", revenue: 8000, target: 7500 },
+  { month: "Sep", revenue: 7500, target: 7800 },
+  { month: "Oct", revenue: 9000, target: 8500 },
+  { month: "Nov", revenue: 8500, target: 8800 },
+  { month: "Dec", revenue: 10000, target: 9500 },
+];
+
+export const REVENUE_TARGET_CHART_WEEKLY_DATA = [
+  { week: "1", revenue: 4000, target: 3800 },
+  { week: "2", revenue: 3000, target: 3200 },
+  { week: "3", revenue: 5000, target: 4500 },
+  { week: "4", revenue: 4500, target: 4200 },
+  { week: "5", revenue: 6000, target: 5500 },
+  { week: "6", revenue: 5500, target: 5800 },
+];
+
+export const REVENUE_TARGET_CHART_QUARTERLY_DATA = [
+  { quarter: "Q1", revenue: 12000, target: 11000 },
+  { quarter: "Q2", revenue: 14000, target: 13000 },
+  { quarter: "Q3", revenue: 16000, target: 15000 },
+  { quarter: "Q4", revenue: 18000, target: 17000 },
+];
+
+export const REVENUE_TARGET_CHART_YEARLY_DATA = [
+  { year: "2020", revenue: 40000, target: 38000 },
+  { year: "2021", revenue: 50000, target: 48000 },
+  { year: "2022", revenue: 60000, target: 58000 },
+  { year: "2023", revenue: 70000, target: 68000 },
+  { year: "2024", revenue: 80000, target: 78000 },
+];
+
+export const CHANNEL_PERFORMANCE_CHART_COLORS = [
+  "#6366F1",
+  "#F43F5E",
+  "#F2A365",
+  "#EC4899",
+  "#4ADE80",
+  "#9CA3AF",
+];
+
+export const CHANNEL_PERFORMANCE_CHART_DATA = [
+  { name: "Organic Search", value: 4000 },
+  { name: "Social Media", value: 4500 },
+  { name: "In-Store", value: 3500 },
+  { name: "Referral", value: 1890 },
+  { name: "Mail Order", value: 3000 },
+  { name: "Others", value: 2500 },
+];
+
+export const PRODUCT_PERFORMANCE_CHART_DATA = [
+  { name: "Product A", sales: 4000, revenue: 2400, profit: 2400 },
+  { name: "Product B", sales: 3000, revenue: 1398, profit: 2210 },
+  { name: "Product C", sales: 2000, revenue: 5400, profit: 2290 },
+  { name: "Product D", sales: 2780, revenue: 3908, profit: 2000 },
+  { name: "Product E", sales: 1890, revenue: 4800, profit: 2180 },
+];
+
+export const PRODUCT_PERFORMANCE_CHART_COLORS = ["#8B5CF6", "#10B981", "#F59E0B"];
+
+export const USER_RETENTION_CHART_DATA = [
+  { name: "Week 1", retention: 100 },
+  { name: "Week 2", retention: 75 },
+  { name: "Week 3", retention: 60 },
+  { name: "Week 4", retention: 50 },
+  { name: "Week 5", retention: 45 },
+  { name: "Week 6", retention: 40 },
+];
+
+export const CUSTOMER_SEGMENTATION_CHART_DATA = [
+  { subject: "Engagement", A: 120, B: 110, fullMark: 150 },
+  { subject: "Loyalty", A: 98, B: 130, fullMark: 150 },
+  { subject: "Satisfaction", A: 86, B: 130, fullMark: 150 },
+  { subject: "Spend", A: 99, B: 100, fullMark: 150 },
+  { subject: "Frequency", A: 85, B: 90, fullMark: 150 },
+  { subject: "Recency", A: 65, B: 85, fullMark: 150 },
+];
+
+export const AI_POWERED_INSIGHTS = [
+  {
+    icon: TrendingDown,
+    color: "text-red-500",
+    insight:
+      "Revenue is down 10% compared to last month, due to decreased customer engagement.",
+  },
+  {
+    icon: UserPlus,
+    color: "text-green-500",
+    insight:
+      "New customer acquisition has increased by 12% after the recent marketing campaign.",
+  },
+  {
+    icon: BarChart,
+    color: "text-orange-500",
+    insight:
+      "Sales in the 'Home Appliances' category have surged by 20% this quarter.",
+  },
+  {
+    icon: PieChart,
+    color: "text-blue-500",
+    insight:
+      "Market share has grown by 3% in the last month, indicating a strong competitive position.",
+  },
 ];
