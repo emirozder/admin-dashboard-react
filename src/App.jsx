@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import Sidebar from "./components/Sidebar/index.jsx";
-import AnalyticsPage from "./pages/AnalyticsPage/index.jsx";
-import NotFoundPage from "./pages/NotFoundPage/index.jsx";
-import OrdersPage from "./pages/OrdersPage/index.jsx";
-import OverviewPage from "./pages/OverviewPage/index.jsx";
-import ProductsPage from "./pages/ProductsPage/index.jsx";
-import SalesPage from "./pages/SalesPage/index.jsx";
-import SettingsPage from "./pages/SettingsPage/index.jsx";
-import UsersPage from "./pages/UsersPage/index.jsx";
+import Sidebar from "./components/Sidebar";
+import AnalyticsPage from "./pages/AnalyticsPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import OrdersPage from "./pages/OrdersPage";
+import OverviewPage from "./pages/OverviewPage";
+import ProductsPage from "./pages/ProductsPage";
+import SalesPage from "./pages/SalesPage";
+import SettingsPage from "./pages/SettingsPage";
+import UsersPage from "./pages/UsersPage";
 
 function App() {
   return (
