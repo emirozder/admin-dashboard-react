@@ -1,13 +1,13 @@
 import { Route, Routes } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
-import AnalyticsPage from "./pages/AnalyticsPage";
-// import NotFoundPage from "./pages/NotFoundPage";
-import OrdersPage from "./pages/OrdersPage";
-import OverviewPage from "./pages/OverviewPage";
-import ProductsPage from "./pages/ProductsPage";
-import SalesPage from "./pages/SalesPage";
-import SettingsPage from "./pages/SettingsPage";
-import UsersPage from "./pages/UsersPage";
+import Sidebar from "./components/Sidebar/index";
+import AnalyticsPage from "./pages/AnalyticsPage/index";
+import NotFoundPage from "./pages/NotFoundPage/index";
+import OrdersPage from "./pages/OrdersPage/index";
+import OverviewPage from "./pages/OverviewPage/index";
+import ProductsPage from "./pages/ProductsPage/index";
+import SalesPage from "./pages/SalesPage/index";
+import SettingsPage from "./pages/SettingsPage/index";
+import UsersPage from "./pages/UsersPage/index";
 
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
         <Route path="/orders" element={<OrdersPage />} />
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
-        {/* <Route path="*" element={<NotFoundPage />} /> */}
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </div>
   );
