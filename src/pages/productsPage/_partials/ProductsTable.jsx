@@ -25,7 +25,7 @@ const ProductsTable = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.2 }}
     >
-      <div className="flex justify-between items-center mb-6">
+      <div className="flex flex-col justify-between items-center mb-6 sm:flex-row">
         <h2 className="text-xl font-semibold text-gray-100">Products List</h2>
         <div className="relative">
           <input
