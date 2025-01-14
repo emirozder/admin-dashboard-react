@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import AnalyticsPage from "../pages/AnalyticsPage";
-import NotFoundPage from "../pages/NotFoundPage";
-import OrdersPage from "../pages/OrdersPage";
-import OverviewPage from "../pages/OverviewPage";
-import ProductsPage from "../pages/ProductsPage";
-import SalesPage from "../pages/SalesPage";
-import SettingsPage from "../pages/SettingsPage";
-import UsersPage from "../pages/UsersPage";
+import AnalyticsPage from "../../src/pages/AnalyticsPage/index";
+import NotFoundPage from "../../src/pages/NotFoundPage/index";
+import OrdersPage from "../../src/pages/OrdersPage/index";
+import OverviewPage from "../../src/pages/OverviewPage/index";
+import ProductsPage from "../../src/pages/ProductsPage/index";
+import SalesPage from "../../src/pages/SalesPage/index";
+import SettingsPage from "../../src/pages/SettingsPage/index";
+import UsersPage from "../../src/pages/UsersPage/index";
 
 const AppRoutes = () => {
   return (
