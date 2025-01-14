@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import AnalyticsPage from "./pages/AnalyticsPage";
-import NotFoundPage from "./pages/NotFoundPage";
+// import NotFoundPage from "./pages/NotFoundPage";
 import OrdersPage from "./pages/OrdersPage";
 import OverviewPage from "./pages/OverviewPage";
 import ProductsPage from "./pages/ProductsPage";
@@ -29,7 +29,7 @@ function App() {
         <Route path="/orders" element={<OrdersPage />} />
         <Route path="/analytics" element={<AnalyticsPage />} />
         <Route path="/settings" element={<SettingsPage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        {/* <Route path="*" element={<NotFoundPage />} /> */}
       </Routes>
     </div>
   );
